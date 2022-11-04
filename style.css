@@ -28,6 +28,8 @@ html {
     height: 100vh;
     background-image: url(./Images/photo-1585202900225-6d3ac20a6962.webp);
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .odin-container {
@@ -35,7 +37,7 @@ html {
     flex-direction: row;
     justify-content: center;
     background: rgba(0, 0, 0, 0.4);
-    margin-top: 210px;
+    margin-top: 215px;
 }
 
 .odin-logo {
@@ -48,13 +50,31 @@ html {
 .odin-text {
     color: white;
     font-family: 'Norse';
-    font-size: 90px;
+    font-size: 100px;
     margin-left: 10px;
-    padding-top: 24px;
+    padding-top: 20px;
 }
 
 .form-content {
     width: 63%;
     height: 100vh;
     background-color: red;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-text-container {
+    background-color: #f3f4f6;
+    height: 37vh;
+}
+
+.form-container {
+    background-color: white;
+    height: 31.5vh;
+    box-shadow: 0 0 0 1em rgba(0, 0, 0, 0.3);
+}
+
+.create-container {
+    background-color: #f3f4f6;
+    height: 31.5vh;
 }
