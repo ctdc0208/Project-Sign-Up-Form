@@ -5,6 +5,11 @@ html {
     height: 100%;
 }
 
+@font-face {
+    font-family: 'Norse';
+    src: url(Fonts/Norse\ Bold/Norse-Bold.ttf);
+}
+
 .max-width {
     width: max(76%, 800px);
     height: max(100vh);
@@ -19,9 +24,33 @@ html {
 }
 
 .background-image {
-    width: 38%;
+    width: 37%;
     height: 100vh;
     background-image: url(./Images/photo-1585202900225-6d3ac20a6962.webp);
+    background-position: center;
+}
+
+.odin-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.4);
+    margin-top: 210px;
+}
+
+.odin-logo {
+    content: url(./Design/odin-lined.png);
+    width: min(96px);
+    height: min(129px);
+    padding: 10px;
+}
+
+.odin-text {
+    color: white;
+    font-family: 'Norse';
+    font-size: 90px;
+    margin-left: 10px;
+    padding-top: 24px;
 }
 
 .form-content {
